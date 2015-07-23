@@ -6,7 +6,7 @@ THis linux is based on busybox. You can edit the script and add more modules if 
 # Before running script please check following packages.
 GCC, WGET, MAKE,GENISOIMAGE,SYSLINUX,BC
 
-* Instructions to run the file.
+# Instructions to run the file.
 * Download file barik_iso_maker.sh
 * change the permission of file to executable like chmod 777 barik_iso_maker.sh
 * run the script like sh barik_iso_maker.sh or ./barik_iso_maker.sh
