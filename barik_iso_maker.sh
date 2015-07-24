@@ -137,12 +137,12 @@ cd ../..
 
 # Finally generate the iso file.
 
-rm -f minimal_linux_live.iso
+rm -f barik_linux.iso
 
 cd kaamkaj/kernel
 cd $(ls -d *)
 
 make isoimage FDINITRD=../../rootfs.cpio.gz
-cp arch/x86/boot/image.iso ../../../minimal_linux_live.iso
+cp arch/x86/boot/image.iso ../../../barik_linux.iso
 
 cd ../../..
